@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8" />
+        <title>Matches</title>
+        <link rel="stylesheet" type"text/css" href="css/style.css" />
+
+    </head>
+
+    <body>
+
+        <canvas id="canv" width="1600" height="900"></canvas>
+
+        <script type="text/javascript" src="js/userControls.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript">
+
+            const FPS = 30; // Frames per second
+            const MATCH_HEAD = 6; // size of match heads
+            const STICK_WIDTH = 5; // width of stick
+            const STICK_LENGTH = 60; // stick length
+            const MATCH_STICK_COLOR = "#ffe6cc";
+        
+            setInterval(update, 1000 / FPS);
+        
+        </script>
+        
+    </body>
+
+</html>
