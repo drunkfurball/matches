@@ -1,0 +1,149 @@
+// 1 + 11 = 10
+matches
+(10) […]
+​
+0: {…}
+​​
+a: -1.5944139817998473
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 357
+​​
+y: 265
+​​
+<prototype>: Object { … }
+​
+1: {…}
+​​
+a: -1.5799703813400068
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 485
+​​
+y: 269
+​​
+<prototype>: Object { … }
+​
+2: {…}
+​​
+a: 0.007751782712206873
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 424
+​​
+y: 322
+​​
+<prototype>: Object { … }
+​
+3: {…}
+​​
+a: -0.9245888646631837
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 618
+​​
+y: 289
+​​
+<prototype>: Object { … }
+​
+4: {…}
+​​
+a: -2.2406888221618413
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 686
+​​
+y: 292
+​​
+<prototype>: Object { … }
+​
+5: {…}
+​​
+a: -1.5797246609747335
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 738
+​​
+y: 277
+​​
+<prototype>: Object { … }
+​
+6: {…}
+​​
+a: -0.009258994662123082
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 809
+​​
+y: 305
+​​
+<prototype>: Object { … }
+​
+7: {…}
+​​
+a: 3.131388926095839
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 921
+​​
+y: 360
+​​
+<prototype>: Object { … }
+​
+8: {…}
+​​
+a: -0.9017533286043231
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 1010
+​​
+y: 282
+​​
+<prototype>: Object { … }
+​
+9: {…}
+​​
+a: -2.301703033951614
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 1078
+​​
+y: 285
+​​
+<prototype>: Object { … }
+​
+length: 10
+​
+<prototype>: Array []
+
+//

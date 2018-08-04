@@ -1,3 +1,9 @@
+const FPS = 30; // Frames per second
+const MATCH_HEAD = 6; // size of match heads
+const STICK_WIDTH = 5; // width of stick
+const STICK_LENGTH = 60; // stick length
+const MATCH_STICK_COLOR = "#ffe6cc";
+        
 let canv = document.getElementById("canv");
 
 
@@ -70,16 +76,16 @@ function myDrag(event) {
         //if clicked on match head, drag entire match
         if (distBetweenPoints(matches[m].x, matches[m].y, msEvt.offsetX, msEvt.offsetY) < MATCH_HEAD) {
             matches[m].drag = true;
-            canv.onmousemove = myMove;
         }
         
         //if clicked on match stick, change angel (a) of match to same angle as match head - mouse pointer
         if (distBetweenPoints(matches[m].x + STICK_LENGTH * (2 * Math.cos(matches[m].a)),
             matches[m].y - STICK_LENGTH * (2 * Math.sin(matches[m].a)), msEvt.offsetX, msEvt.offsetY) < 3) {
             matches[m].rotate = true;
-            canv.onmousemove = myMove;
         } 
     }
+	
+	canv.onmousemove = myMove;
 
 }
 
@@ -149,3 +155,5 @@ function update() {
 canv.addEventListener("dblclick", playerControlMouse);
 canv.onmousedown = myDrag;
 canv.onmouseup = myDrop;
+
+setInterval(update, 1000 / FPS);
