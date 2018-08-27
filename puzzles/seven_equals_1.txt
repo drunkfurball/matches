@@ -1,0 +1,238 @@
+matches
+(7) […]
+​
+0: {…}
+​​
+a: -1.223410363876577
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 459
+​​
+y: 398
+​​
+<prototype>: Object { … }
+​
+1: {…}
+​​
+a: -1.9188565984444612
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 548
+​​
+y: 399
+​​
+<prototype>: Object { … }
+​
+2: {…}
+​​
+a: 4.629050790800088
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 601
+​​
+y: 399
+​​
+<prototype>: Object { … }
+​
+3: {…}
+​​
+a: -1.6282868612782089
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 654
+​​
+y: 399
+​​
+<prototype>: Object { … }
+​
+4: {…}
+​​
+a: -0.011764163149758748
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 724
+​​
+y: 423
+​​
+<prototype>: Object { … }
+​
+5: {…}
+​​
+a: 0.02197448429666256
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 725
+​​
+y: 475
+​​
+<prototype>: Object { … }
+​
+6: {…}
+​​
+a: -1.5707963267948966
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 919
+​​
+y: 386
+​​
+<prototype>: Object { … }
+​
+length: 7
+​
+<prototype>: Array []
+
+//solution
+matches
+(7) […]
+​
+0: {…}
+​​
+a: -1.223410363876577
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 459
+​​
+y: 398
+​​
+<prototype>: Object { … }
+​
+1: {…}
+​​
+a: -1.9188565984444612
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 548
+​​
+y: 399
+​​
+<prototype>: Object { … }
+​
+2: {…}
+​​
+a: 4.629050790800088
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 601
+​​
+y: 399
+​​
+<prototype>: Object { … }
+​
+3: {…}
+​​
+a: 0.08441430567553351
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 559
+​​
+y: 387
+​​
+<prototype>: Object { … }
+​
+4: {…}
+​​
+a: -0.011764163149758748
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 724
+​​
+y: 423
+​​
+<prototype>: Object { … }
+​
+5: {…}
+​​
+a: 0.02197448429666256
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 725
+​​
+y: 475
+​​
+<prototype>: Object { … }
+​
+6: {…}
+​​
+a: -1.5707963267948966
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 919
+​​
+y: 386
+​​
+<prototype>: Object { … }
+​
+length: 7
+​
+<prototype>: Array []

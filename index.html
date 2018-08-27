@@ -5,14 +5,26 @@
 
         <meta charset="UTF-8" />
         <title>Matches</title>
-        <link rel="stylesheet" type"text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
 
     </head>
 
     <body>
 
-        <canvas id="canv" width="1600" height="900"></canvas>
+        <img src="img/penny-heads.png" width="67" height="68" alt="penny heads" class="coin heads" id="penny-heads" onclick="addCoin('penny');"/>
+        <img src="img/penny-tails.png" width="67" height="68" alt="penny tails" class="coin tails" id="penny-tails" />
+        <img src="img/nickel-heads.png" width="76" height="76" alt="nickel heads" class="coin heads" id="nickel-heads" onclick="addCoin('nickel');"/>
+        <img src="img/nickel-tails.png" width="76" height="76" alt="nickel tails" class="coin tails" id="nickel-tails" />
+        <img src="img/dime-heads.png" width="65" height="65" alt="dime heads" class="coin heads" id="dime-heads" onclick="addCoin('dime');"/>
+        <img src="img/dime-tails.png" width="65" height="65" alt="dime tails" class="coin tails" id="dime-tails" />
+        <img src="img/quarter-heads.png" width="87" height="87" alt="quarter heads" class="coin heads" id="quarter-heads" onclick="addCoin('quarter');"/>
+        <img src="img/quarter-tails.png" width="87" height="87" alt="quarter tails" class="coin tails" id="quarter-tails" />
+        
+        
+        
 
+        <canvas id="canv" width="1600" height="900"></canvas>
+       
         <script type="text/javascript" src="js/script.js"></script>
         <script type="text/javascript">
 

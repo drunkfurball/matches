@@ -1,0 +1,366 @@
+matches
+(11) […]
+​
+0: {…}
+​​
+a: 3.7023972790209356
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 443
+​​
+y: 400
+​​
+<prototype>: Object { … }
+​
+1: {…}
+​​
+a: -0.3928705074646477
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 339
+​​
+y: 473
+​​
+<prototype>: Object { … }
+​
+2: {…}
+​​
+a: -1.5707963267948966
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 457
+​​
+y: 400
+​​
+<prototype>: Object { … }
+​
+3: {…}
+​​
+a: -0.014813731111901346
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 469
+​​
+y: 398
+​​
+<prototype>: Object { … }
+​
+4: {…}
+​​
+a: -1.6321228379352621
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 604
+​​
+y: 400
+​​
+<prototype>: Object { … }
+​
+5: {…}
+​​
+a: -0
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 466
+​​
+y: 522
+​​
+<prototype>: Object { … }
+​
+6: {…}
+​​
+a: -1.9756881130799802
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 451
+​​
+y: 528
+​​
+<prototype>: Object { … }
+​
+7: {…}
+​​
+a: -1.251527156883555
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 462
+​​
+y: 533
+​​
+<prototype>: Object { … }
+​
+8: {…}
+​​
+a: -1.8441516503183322
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 590
+​​
+y: 532
+​​
+<prototype>: Object { … }
+​
+9: {…}
+​​
+a: -1.2112019334816335
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 603
+​​
+y: 531
+​​
+<prototype>: Object { … }
+​
+10: {…}
+​​
+a: -0.08645065168737405
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 611
+​​
+y: 463
+​​
+<prototype>: Object { … }
+​
+length: 11
+​
+<prototype>: Array []
+
+//solution
+matches
+(11) […]
+​
+0: {…}
+​​
+a: 3.7023972790209356
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 443
+​​
+y: 400
+​​
+<prototype>: Object { … }
+​
+1: {…}
+​​
+a: -0.3928705074646477
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 339
+​​
+y: 473
+​​
+<prototype>: Object { … }
+​
+2: {…}
+​​
+a: -1.5707963267948966
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 457
+​​
+y: 400
+​​
+<prototype>: Object { … }
+​
+3: {…}
+​​
+a: -0.014813731111901346
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 469
+​​
+y: 398
+​​
+<prototype>: Object { … }
+​
+4: {…}
+​​
+a: -1.6321228379352621
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 604
+​​
+y: 400
+​​
+<prototype>: Object { … }
+​
+5: {…}
+​​
+a: -0
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 466
+​​
+y: 522
+​​
+<prototype>: Object { … }
+​
+6: {…}
+​​
+a: -1.9756881130799802
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 451
+​​
+y: 528
+​​
+<prototype>: Object { … }
+​
+7: {…}
+​​
+a: 1.9392418852348692
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 454
+​​
+y: 388
+​​
+<prototype>: Object { … }
+​
+8: {…}
+​​
+a: 1.1597317794050321
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 608
+​​
+y: 385
+​​
+<prototype>: Object { … }
+​
+9: {…}
+​​
+a: -1.2112019334816335
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 603
+​​
+y: 531
+​​
+<prototype>: Object { … }
+​
+10: {…}
+​​
+a: -0.08645065168737405
+​​
+burnt: false
+​​
+drag: false
+​​
+rotate: false
+​​
+x: 611
+​​
+y: 463
+​​
+<prototype>: Object { … }
+​
+length: 11
+​
+<prototype>: Array []
