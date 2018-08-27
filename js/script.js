@@ -3,6 +3,7 @@ const MATCH_HEAD = 6; // size of match heads
 const STICK_WIDTH = 5; // width of stick
 const STICK_LENGTH = 60; // stick length
 const MATCH_STICK_COLOR = "#ffe6cc";
+const COIN_BINDING = false; // toggles the binding circle for coins
         
 let canv = document.getElementById("canv");
 
@@ -89,7 +90,6 @@ function newCoin(x,y, num) {
     return coin;
 }
 
-
 function distBetweenPoints(x1, y1, x2, y2) {
 
     return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
@@ -97,7 +97,9 @@ function distBetweenPoints(x1, y1, x2, y2) {
 }
 
 function slopeOfLine(x1, y1, x2, y2) {
+
     return ((y2, - y1) / (x2 - x1));
+
 }
 
 function angleBetweenPoints(x1, y1, x2, y2) {
@@ -105,7 +107,6 @@ function angleBetweenPoints(x1, y1, x2, y2) {
     return -Math.atan2(y2 - y1, x2 - x1);
 
 }
-
 
 function playerControlMouse(event) {
 
@@ -116,11 +117,17 @@ function playerControlMouse(event) {
 
     for (let c = 0; c < coins.length; c++){
         if (distBetweenPoints(coins[c].x, coins[c].y, msEvt.offsetX, msEvt.offsetY) < coins[c].r) {
-            coins[c].heads = !(coins[c].heads);
+            if (msEvt.shiftKey) {
+                coins.splice(c, 1);
+            }
+            else {
+                coins[c].heads = !(coins[c].heads);
+            }
             coin_action = true;
             break;
         }
     }
+
     if (!coin_action) {
         for (let m = 0; m < matches.length; m++) {
         
@@ -131,12 +138,15 @@ function playerControlMouse(event) {
         }
 
         if (context_action) {
-            matches.splice(context_index, 1);
+            if (msEvt.shiftKey) {
+                matches.splice(context_index, 1);
+            }
+            else {
+                matches[context_index].burnt = true;
+            }
         }
         else {
-        
             matches.push(newMatch(msEvt.offsetX, msEvt.offsetY));
-        
         }
     }
 
@@ -259,9 +269,13 @@ function update() {
         ctx.closePath();
         ctx.stroke();
 
-
         // match head
-        ctx.fillStyle = "red";
+        if (!matches[m].burnt) {
+            ctx.fillStyle = "red";
+        }
+        else {
+            ctx.fillStyle = "gray";
+        }
         ctx.beginPath();
         ctx.arc(matches[m].x, matches[m].y, MATCH_HEAD, 0, Math.PI * 2, false);
         ctx.fill();
@@ -278,10 +292,13 @@ function update() {
         ctx.drawImage(coins[c].img, -coins[c].r, -coins[c].r);
         
         //draw binding circle for coin
-        //ctx.strokeStyle = "green";
-        //ctx.beginPath();
-        //ctx.arc(0, 0, coins[c].r, 0, 2*Math.PI, false);
-        //ctx.stroke();
+        if (COIN_BINDING) {
+            ctx.strokeStyle = "green";
+            ctx.lineWidth = 1;
+            ctx.beginPath();
+            ctx.arc(0, 0, coins[c].r, 0, 2*Math.PI, false);
+            ctx.stroke();
+        }
 
         //return canvas to original position
         ctx.rotate((2 * Math.PI)-coins[c].a);
@@ -293,7 +310,5 @@ function update() {
 canv.addEventListener("dblclick", playerControlMouse);
 canv.onmousedown = myDrag;
 canv.onmouseup = myDrop;
-
-
 
 setInterval(update, 1000 / FPS);
